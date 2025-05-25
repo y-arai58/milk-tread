@@ -1,0 +1,14 @@
+/* ユーザーダッシュボードのメインコンテナ */
+.consumer-dashboard h2 {
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.available-cats,
+.my-applications {
+  margin-bottom: 30px;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+}
