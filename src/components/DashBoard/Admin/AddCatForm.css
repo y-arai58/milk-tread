@@ -1,0 +1,39 @@
+/* 猫追加フォーム */
+.add-cat-section {
+  margin-bottom: 30px;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.add-cat-button {
+  background: #3498db;
+  color: white;
+  padding: 5px 10px;
+  margin: 20px 0 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-cat-health-status {
+  width: 200px;
+  padding: 10px;
+}
+
+/* selectがプレースホルダー値のときのスタイリング */
+.add-cat-health-status:invalid {
+  color: #aaa; /* プレースホルダー時は薄いグレー */
+}
+
+/* 画像プレビュー */
+.image-preview {
+  margin-top: 10px;
+}
+
+.image-preview img {
+  max-width: 100%;
+  max-height: 200px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
